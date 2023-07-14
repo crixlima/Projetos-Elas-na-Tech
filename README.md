@@ -1,2 +1,0 @@
-# Projetos-Elas-na-Tech
-
