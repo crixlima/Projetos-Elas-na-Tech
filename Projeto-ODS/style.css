@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    
+    background-color: #FAF1E0;
+    font-family: sans-serif;
+    
+}
+/* Estilo Parte introdutiva */
+header {
+
+    background-color:#FC3C24; 
+    /* width: auto; */
+    font-style: normal;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  
+} 
+
+p, a{
+
+    text-align: justify;
+}
+.descubra{
+
+    text-decoration: none; 
+    /* width: 500px;   */
+    margin-right: 50px;    
+}
+
+.logo {
+    width: 10%;
+    /* height: 179px; */
+
+}
+.titulo-header{
+    font-size: 50px;
+    display: flex;
+    color: #FCDDEC;
+    justify-content: space-between;  
+    padding-left: 50px;
+    align-items: center;
+   
+}
+
+
+.igualdade-de-genero-1{
+    width: 50%;
+    height: 293px;
+    display: flex;
+    /* margin-bottom: 5px; */
+    
+        
+}
+.inicio-do-site {
+
+    display: flex;
+    justify-content: space-between;    
+   
+}
+
+.texto-inicio {
+
+    width: 50%;
+    /* height: 219px; */
+    color: #7C6F6D;
+    font-size: 20px;
+    font-style: normal;
+    margin: 40px 50px;
+   }
+
+
+#separador {
+
+    background-color: #FC3C24;
+    width: auto;
+    height: 13px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5px;
+}
+
+.titulo-igualdade{
+
+    display: flex;
+    justify-content: space-between;  
+    color: #FC3C24; 
+    font-size: 50px;
+    margin-left: 10px;
+    width: 78%;
+ 
+}
+
+.homem-e-mulher{
+
+    width: 50%;
+    height: 271px;
+
+}
+
+.texto-igualdade{
+
+    margin-top: 13px;
+    color: #7C6F6D;
+    width: 1260px;
+    font-weight: 800;
+    font-size: 20px;
+    /* text-align: justify; */
+    margin-bottom: 13px;
+    margin-left: 10px;
+    
+}
+.titulo-mas{
+
+    padding: 30px 20px 50px 40px ;
+}
+/* .div{
+
+    display: flex;
+} */
+/* Fim do estilo parte introdutiva */
+
+/* estilo da parte principal */
+.principal{
+
+    color: #FC3C24; 
+    text-align: center;
+    font-size: 50px;
+    margin-top: 13px;    
+    margin-bottom: 13px;
+    margin: 0;
+     
+}
+
+
+#text-box{
+
+    color: #7C6F6D;
+    font-size: 20px;
+    display: flex;  
+    justify-content: space-between;  
+   
+}
+
+#box {
+
+    padding: 50px;
+    margin-top: 5px;
+    /* text-align: justify; */
+  
+}
+.iframe{
+    display: flex;
+    color: #FC3C24; 
+    font-size: 50px;   
+    flex-direction: column; 
+    margin: 10px 30px 20px 95px;
+    
+}
+.titulo-video{
+     
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+
+}
+footer{
+
+    background-color:#FC3C24; 
+    color: #FCDDEC;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    
+}
+.eu{
+
+    width: 200px;  
+    margin-bottom: 10px; 
+    box-shadow:  #FCDDEC ;
+    
+}
+.autor{
+    font-size: 25px;
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nome{
+
+    text-align: center;
+}
+.creditos{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: justify; */
+    justify-content: center;
+    margin-right: 80px;   
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 480px) {
+  .logo {
+
+    width: 15%;
+  }
+  .genero, .descubra{
+
+    font-size: 20px;
+    margin: 0;
+  }
+  .igualdade-de-genero-1, .texto-inicio{
+    width: 100%;
+       
+  }
+  .inicio-do-site{
+    display: flex;
+    flex-direction: column;   
+  }
+  .texto-inicio{
+    margin: 10px 5px 20px 5px;
+    font-size: 15px;
+    /* padding: 5px 5px 20px ; */
+    
+  }
+  .titulo-igualdade, .texto-igualdade{
+
+    width: 100%;
+  }
+
+   
+
+}
+
+/* Estilos para tablets e IPads*/
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Estilos para notebooks */
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Estilos para computadores */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* Estilos para telas muito grandes */
+@media (max-width: 1201px) {
+
+}
