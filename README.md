@@ -1,3 +1,5 @@
-# Projetos-Elas-na-Tech
+#Projeto ODS.5 Igualdade de Gênero
 
-Aqui apenas o esqueleto de um Curriculo
+Projeto usando tecnologias HTNL e CSS
+
+Autor(a)Cristiane de Lima Borges
